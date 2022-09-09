@@ -9,7 +9,7 @@ import (
 
 	"github.com/suryateja1698/ewallet/graph/generated"
 	"github.com/suryateja1698/ewallet/graph/model"
-	"github.com/suryateja1698/ewallet/utils"
+	"github.com/suryateja1698/ewallet/pkg/utils"
 )
 
 // CreateUser is the resolver for the createUser field.

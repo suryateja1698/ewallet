@@ -9,6 +9,7 @@ import (
 	"github.com/99designs/gqlgen/graphql/playground"
 	"github.com/suryateja1698/ewallet/graph"
 	"github.com/suryateja1698/ewallet/graph/generated"
+	"github.com/suryateja1698/ewallet/pkg/db"
 )
 
 const defaultPort = "8080"
@@ -18,6 +19,8 @@ func main() {
 	if port == "" {
 		port = defaultPort
 	}
+
+	db.InitDB()
 
 	srv := handler.NewDefaultServer(generated.NewExecutableSchema(generated.Config{Resolvers: &graph.Resolver{}}))
 
