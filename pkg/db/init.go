@@ -24,7 +24,7 @@ func InitDB() {
 		fmt.Println("DB init fail: ", err)
 		os.Exit(1)
 	}
-
+	fmt.Println("hello")
 	err = db.Debug().AutoMigrate(models.User{}).Error
 	if err != nil {
 		fmt.Println("auto migration of user table failed")
