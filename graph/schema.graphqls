@@ -1,5 +1,5 @@
 type User {
-  id: Int!
+  id: String!
   name: String!
   userName: String!
   email: String!
@@ -17,4 +17,5 @@ type Mutation {
 
 type Query{
   getUser(input: String!): User!
+  getAllUsers:[User!]!
 }

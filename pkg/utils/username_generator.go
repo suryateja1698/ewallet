@@ -1,9 +1,10 @@
 package utils
 
-import "hash/fnv"
+import "strings"
 
-func UserIDGenerator(email string) uint32 {
-	h := fnv.New32a()
-	h.Write([]byte(email))
-	return h.Sum32()
+func UserIDGenerator(email, userName string) string {
+
+	emailName := strings.Split(email, "@")
+
+	return emailName[0] + userName
 }
