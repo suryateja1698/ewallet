@@ -7,9 +7,9 @@ import (
 
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
-	"github.com/suryateja1698/ewallet/graph"
-	"github.com/suryateja1698/ewallet/graph/generated"
-	"github.com/suryateja1698/ewallet/pkg/db"
+	"github.com/suryateja1698/gql-ex/graph"
+	"github.com/suryateja1698/gql-ex/graph/generated"
+	"github.com/suryateja1698/gql-ex/pkg/db"
 )
 
 const defaultPort = "8080"

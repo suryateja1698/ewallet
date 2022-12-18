@@ -3,7 +3,7 @@ package db
 import (
 	"log"
 
-	"github.com/suryateja1698/ewallet/graph/model"
+	"github.com/suryateja1698/gql-ex/graph/model"
 )
 
 func AddUser(user model.User) error {

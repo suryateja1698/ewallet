@@ -6,7 +6,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 	_ "github.com/lib/pq"
-	"github.com/suryateja1698/ewallet/graph/model"
+	"github.com/suryateja1698/gql-ex/graph/model"
 )
 
 var DB *gorm.DB

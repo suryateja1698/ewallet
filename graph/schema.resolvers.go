@@ -6,10 +6,10 @@ package graph
 import (
 	"context"
 
-	"github.com/suryateja1698/ewallet/graph/generated"
-	"github.com/suryateja1698/ewallet/graph/model"
-	"github.com/suryateja1698/ewallet/pkg/db"
-	"github.com/suryateja1698/ewallet/pkg/utils"
+	"github.com/suryateja1698/gql-ex/graph/generated"
+	"github.com/suryateja1698/gql-ex/graph/model"
+	"github.com/suryateja1698/gql-ex/pkg/db"
+	"github.com/suryateja1698/gql-ex/pkg/utils"
 )
 
 // CreateUser is the resolver for the createUser field.
