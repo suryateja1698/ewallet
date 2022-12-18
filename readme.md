@@ -17,6 +17,7 @@ make generate
 
 Every time we add/modify any mutation or query or schema we need to do `make generate` so that gqlgen will update the dependencies code 
 
+After doing `make generate` we will have our mutations, queries code in `graph/schema.resolvers.go`, we can modify them according to our logic
 
 # Steps to run
 
